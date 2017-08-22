@@ -32,7 +32,7 @@ export default class ExampleView2 extends ReactReFresh {
   refreshIndicator() {
     if (this.state.isRefreshing) {
       return (
-        <div className="list-group-item text-center indicator">🏃...</div>
+        <div className="list-group-item text-center indicator">😁...</div>
       )
     }
     return
@@ -42,7 +42,7 @@ export default class ExampleView2 extends ReactReFresh {
   loadMoreIndicator() {
     if (this.state.isLoadingMore) {
       return (
-        <div className="list-group-item text-center indicator">...🏃</div>
+        <div className="list-group-item text-center indicator">...😁</div>
       )
     }
     return
