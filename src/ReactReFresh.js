@@ -20,7 +20,7 @@ class ReactReFresh extends React.Component {
     var targetNodeIndex = 0
     var nodes = document.getElementsByClassName(dom.className)
     for (var i = 0; i < nodes.length; i++) {
-      if (nodes[i] = dom) {
+      if (nodes[i] == dom) {
         targetNodeIndex = i
         break
       }
